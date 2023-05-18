@@ -1,5 +1,5 @@
 .container{
-    width: 1300px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -47,6 +47,18 @@ table {
 }
 a {
     text-decoration: none;
+	font-size: 14px;
+}
+.btn{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	color: #fff;
+	background: #316aff;
+	border-radius: 4px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 img {
     border: 0;
@@ -58,7 +70,7 @@ img {
     clear: both;
 }
 header{
-    background-color: #141618
+    background-color: #141618;
 }
 header .container{
 	display: flex;
@@ -91,7 +103,6 @@ header .search{
 header .search input{
 	height: 34px;
 	width: 250px;
-	border-radius: 4px;
 	background: #21252d;
 	padding: 0 10px;
 }
@@ -125,4 +136,41 @@ header .container .login-buttons ul{
 .header .login-buttons ul li.join-button a{
 	background: #36855b;
 	border-radius: 4px;
+}
+
+/*BANNER SECTİON*/
+
+.banner{
+	background: linear-gradient(170deg, #212A39, #181E28);
+}
+.banner .container{
+	height: 50vh;
+	display: flex;
+	padding: 70px 0;
+	align-items: center;
+}
+.banner .container .banner-box{
+	width: 50%;
+	box-sizing: border-box;
+	justify-content: center;
+	display: block;
+}
+.banner .container .banner-box h3{
+	font-size: 38px;
+	color: #fff;
+	font-weight: 500px;
+	line-height: 42px;
+}
+.banner .container .banner-box h5{
+	font-size: 20px;
+	color: #B0B6BE;
+	margin-top: 14px;
+}
+.banner .container .banner-box .btn{
+	margin-top: 65px;
+
+}
+.banner .container .banner-image{
+	margin-left: 100px;
+	padding-bottom: 20px;
 }
