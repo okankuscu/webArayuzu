@@ -201,10 +201,10 @@ header .container .login-buttons ul{
 	justify-content: center;
 	align-items: center;
 	box-shadow: 0 5px 15px -5px rgba(0, 0, 0, .1);
-	transition: 200ms all;
+	transition: 150ms all;
 }
 .section-first .lang a:hover{
-	transform: scale(0.65);
+	transform: scale(1.1);
 }
 .section-first .lang a img{
 	margin-bottom: 20px;
