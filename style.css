@@ -110,6 +110,10 @@ header .search input{
 }
 header .search input ::placeholder{
 	color: rgba(255, 255, 255, .6);
+	transition: 200ms opacity;
+}
+header .search input:focus::placeholder{
+	opacity: 0;
 }
 header .search button{
 	width: 32px;
@@ -170,7 +174,6 @@ header .container .login-buttons ul{
 }
 .banner .container .banner-box .btn{
 	margin-top: 65px;
-
 }
 .banner .container .banner-image{
 	margin-left: 100px;
