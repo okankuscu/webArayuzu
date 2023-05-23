@@ -160,11 +160,11 @@ header .container .login-buttons ul{
 	box-sizing: border-box;
 	justify-content: center;
 	display: block;
+	font-weight: 500px;
 }
 .banner .container .banner-box h3{
 	font-size: 38px;
 	color: #fff;
-	font-weight: 500px;
 	line-height: 42px;
 }
 .banner .container .banner-box h5{
